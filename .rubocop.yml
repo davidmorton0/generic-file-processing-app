@@ -1,0 +1,29 @@
+require: rubocop-rspec    
+
+AllCops:
+  Exclude:
+    - 'spec/spec_helper.rb'
+  NewCops: enable
+
+Style/Documentation:
+  Enabled: false
+
+#RSpec
+
+RSpec/NamedSubject:
+  Enabled: false
+
+RSpec/StubbedMock:
+  Enabled: false
+
+RSpec/MessageSpies:
+  Enabled: false
+
+RSpec/BlockLength:
+  Max: 30
+
+RSpec/ExampleLength:
+  Max: 10
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
